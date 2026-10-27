@@ -57,5 +57,3 @@ $env:BIOS_DEFAULT_PASSWORD = "..."
 # Senha BIOS via parâmetro seguro + criptografia apenas do espaço usado
 $pwd = Read-Host -AsSecureString "Senha BIOS"
 .\Pos-Imagem.ps1 -BiosPassword $pwd -BitLockerUsedSpaceOnly
-
-
